@@ -1,0 +1,5 @@
+name: SimpleClans-PlotSquared6
+main: me.roinujnosde.protectionprovider.SimpleClansPlotSquared6
+version: 1.0.3
+api-version: 1.13
+softdepend: [ "SimpleClans", "PlotSquared" ]
