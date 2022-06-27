@@ -1,7 +1,6 @@
 package me.roinujnosde.protectionprovider;
 
 import me.roinujnosde.protectionprovider.provider.PS6Provider;
-import net.sacredlabyrinth.phaed.simpleclans.SimpleClans;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.PluginManager;
@@ -29,6 +28,6 @@ public class SimpleClansPlotSquared6 extends JavaPlugin {
             return;
         }
         getLogger().info("Registering provider...");
-        ((SimpleClans) scPl).getProtectionManager().registerProvider(new PS6Provider());
+        new PS6Provider().register();
     }
 }
